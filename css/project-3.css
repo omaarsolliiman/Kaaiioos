@@ -599,8 +599,7 @@ p {
   backdrop-filter: var(--blur-effect);
 }
 .popup-box img {
-  max-width: 75%;
-  height: auto;
+  max-width: 100%;
   border-radius: 25px;
   padding: 10px;
 }
@@ -909,7 +908,7 @@ p {
   padding-top: 40px;
   padding-bottom: 100px;
   height: 630px;
-  background: url("/images/contact.jpg") no-repeat;
+  background: url("https://unsplash.com/photos/V5vqWC9gyEU") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
