@@ -614,13 +614,12 @@ p {
   position: absolute;
   padding: 8px 8px;
   top: 40px;
-  right: 40px;
+  right: 30px;
   color: var(--white);
   border-radius: 50%;
   background: var(--red);
   cursor: pointer;
   z-index: 1001;
-  margin-left: 10px;
 }
 .close-button::after,
 .setting-close-button::after {
