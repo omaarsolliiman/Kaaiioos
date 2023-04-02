@@ -620,6 +620,7 @@ p {
   background: var(--red);
   cursor: pointer;
   z-index: 1001;
+  margin-left: 10px;
 }
 .close-button::after,
 .setting-close-button::after {
