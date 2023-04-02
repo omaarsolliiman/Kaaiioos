@@ -613,7 +613,7 @@ p {
 .setting-close-button {
   position: absolute;
   padding: 8px 8px;
-  top: 40px;
+  top: 25px;
   right: 25px;
   color: var(--white);
   border-radius: 50%;
