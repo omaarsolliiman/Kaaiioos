@@ -614,7 +614,7 @@ p {
   position: absolute;
   padding: 8px 8px;
   top: 40px;
-  right: 30px;
+  right: 25px;
   color: var(--white);
   border-radius: 50%;
   background: var(--red);
@@ -1110,6 +1110,7 @@ textarea:focus::-webkit-input-placeholder,
   transition: 0.3s cubic-bezier(0, 0, 0.5, 1);
 }
 .alert {
+  font-size: 14px
   padding: 25px 75px;
   text-align: center;
   color: var(--red);
