@@ -164,7 +164,7 @@ function sendEmail() {
       console.log("SUCCESS!", response.status, response.text);
       let alert = document.querySelector(".alert");
       let alertContent = document.createTextNode(
-         "Message Sent ;)"
+         "✨ 👏 Message Sent ;)"
       );
       alert.appendChild(alertContent);
       alert.classList.toggle("active");
