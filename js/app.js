@@ -164,7 +164,7 @@ function sendEmail() {
       console.log("SUCCESS!", response.status, response.text);
       let alert = document.querySelector(".alert");
       let alertContent = document.createTextNode(
-        "Your Message Has Been Sent successfully, Check Your Mail To Get The Updates"
+        "👏 ✨ Message Sent ;)"
       );
       alert.appendChild(alertContent);
       alert.classList.toggle("active");
@@ -195,7 +195,7 @@ sendBtn.addEventListener("click", function () {
   } else {
     let alert = document.querySelector(".alert");
     let alertContent = document.createTextNode(
-      "Your Message Has Not Been Sent, Check Your Input Fields And Try Again"
+      ";( Message didn't Sent,Check Your Input Fields"
     );
     alert.appendChild(alertContent);
     alert.classList.toggle("active");
