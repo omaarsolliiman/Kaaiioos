@@ -1127,7 +1127,7 @@ textarea:focus::-webkit-input-placeholder,
   line-height: 1.8;
   position: fixed;
   z-index: 2;
-  top: -200px;
+  top: 0;
   right: 50%;
   transform: translate(200px, -200px) scale(0);
   width: 400px;
@@ -1138,7 +1138,7 @@ textarea:focus::-webkit-input-placeholder,
 }
 .alert.active {
   top: 10%
-  transform: translate(200px, 0px) scale(1);
+  transform: translate(200px, 200px) scale(1);
 }
 /*end contact*/
 footer {
