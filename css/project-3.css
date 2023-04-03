@@ -614,7 +614,7 @@ p {
   position: absolute;
   padding: 8px 8px;
   top: 40px;
-  right: 25px;
+  right: 10px;
   color: var(--white);
   border-radius: 50%;
   background: var(--red);
@@ -972,7 +972,8 @@ p {
   }
 }
 .contact .content img {
-  width: 50%;
+  height: 100%;
+  width: auto
 
 }
 form {
