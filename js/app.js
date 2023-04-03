@@ -195,7 +195,7 @@ sendBtn.addEventListener("click", function () {
   } else {
     let alert = document.querySelector(".alert");
     let alertContent = document.createTextNode(
-      ";( Message didn't Sent,Check Your Input Fields"
+      "🫤 Message didn't Sent,Check Your Input Fields ;("
     );
     alert.appendChild(alertContent);
     alert.classList.toggle("active");
