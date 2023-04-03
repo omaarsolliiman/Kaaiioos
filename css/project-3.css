@@ -941,6 +941,7 @@ p {
 }
 .contact .overlay {
   position: absolute;
+  background: var(--header)
   backdrop-filter: var(--blur-effect);
   left: 0;
   top: 0;
