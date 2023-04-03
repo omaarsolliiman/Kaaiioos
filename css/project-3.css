@@ -1137,6 +1137,7 @@ textarea:focus::-webkit-input-placeholder,
   transition: 0.3s cubic-bezier(0, 0, 0.5, 1);
 }
 .alert.active {
+  top: 10%
   transform: translate(200px, 0px) scale(1);
 }
 /*end contact*/
