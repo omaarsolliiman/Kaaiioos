@@ -181,7 +181,7 @@ function sendEmail() {
 }
 const sendBtn = document.getElementById("send");
 sendBtn.addEventListener("click", function () {
-  const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
   const nameRegex = /^.{3,}\s*$/u;
   const subjectRegex = /^\s*\S+(?:\s+\S+)*\s*$/;
 
