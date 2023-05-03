@@ -407,14 +407,14 @@ p {
   }
 }
 .introduction h1 {
-  font-size: 25px;
+  font-size: 20px;
   margin: 0 0 10px;
-  line-height: 1.8;
+  line-height: 1.25;
   font-weight: 600;
 }
 
 .introduction h1 span {
-  font-size: 75px;
+  font-size: 65px;
   font-weight: 700;
 }
 .introduction h1 span::before {
