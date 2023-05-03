@@ -397,26 +397,25 @@ p {
   overflow-x: hidden;
 }
 @media (max-width: 768px) {
-.introduction h1 {
+  .introduction h1 {
 
-  font-size: 20px;
+    font-size: 20px;
 
-
-
-
+  }
 
 
 
-}
-
-.introduction h1 span {
-
-  font-size: 20px;
 
 
 
-}
 
+  .introduction h1 span {
+
+    font-size: 65px;
+
+
+
+  }
 
 
   .introduction p {
