@@ -240,7 +240,7 @@ p {
 /*end settings*/
 /*start landing*/
 .landing {
-  height: 75dvh;
+  height: 75vh;
   background: url("../images/1.jpg") no-repeat;
   background-size: cover;
   background-position: bottom center;
