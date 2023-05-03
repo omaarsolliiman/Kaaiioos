@@ -240,7 +240,7 @@ p {
 /*end settings*/
 /*start landing*/
 .landing {
-  min-height: 99vh;
+  height: 95dvh;
   background: url("../images/1.jpg") no-repeat;
   background-size: cover;
   background-position: bottom center;
@@ -396,9 +396,9 @@ p {
   padding: 0 15px;
 }
 @media (max-width: 576px) {
-  .introduction h1 {
+  .introduction h1 span {
     font-size: 35px !important;
-    margin: 0 0 10px;
+
   }
   .introduction p {
     line-height: 1.6;
