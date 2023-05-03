@@ -16,7 +16,7 @@
   --blue: #0071e3;
   --dark-blue: #156aa3;
   --purple: #bf5af2;
-  --header: #000000cc;
+  --header: #00000076;
   --blur-effect: saturate(180%) blur(20px);
 }
 * {
@@ -407,8 +407,13 @@ p {
   }
 }
 .introduction h1 {
-  font-size: 50px;
+  font-size: 16px;
   margin: 0 0 10px;
+  line-height: 1.8;
+}
+
+.introduction h1 span {
+  font-size: 50px;
 }
 .introduction h1 span::before {
   transition: 0.3s cubic-bezier(0, 0, 0.5, 1);
@@ -720,15 +725,15 @@ p {
   font-size: 14px;
   text-align: center;
   color: var(--red);
-  margin: 0 0 10px;
+
 }
-.timeline .timeline-content .content p {
-  color: var(--dark-gray);
-  margin: 0;
-  font-size: 12px;
-  line-height: 1.6;
-  text-align: center;
-}
+
+
+
+
+
+
+
 .clearfix {
   clear: both;
 }
