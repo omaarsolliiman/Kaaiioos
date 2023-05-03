@@ -396,10 +396,10 @@ p {
   padding: 0 15px;
 }
 @media (max-width: 576px) {
-  .introduction h1 span {
-    font-size: 35px !important;
 
-  }
+
+
+
   .introduction p {
     line-height: 1.6;
     font-size: 16px !important;
@@ -407,13 +407,15 @@ p {
   }
 }
 .introduction h1 {
-  font-size: 16px;
+  font-size: 25px;
   margin: 0 0 10px;
   line-height: 1.8;
+  font-weight: 600;
 }
 
 .introduction h1 span {
-  font-size: 50px;
+  font-size: 75px;
+  font-weight: 700;
 }
 .introduction h1 span::before {
   transition: 0.3s cubic-bezier(0, 0, 0.5, 1);
