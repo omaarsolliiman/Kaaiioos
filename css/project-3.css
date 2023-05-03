@@ -16,7 +16,7 @@
   --blue: #0071e3;
   --dark-blue: #156aa3;
   --purple: #bf5af2;
-  --header: rgba(29, 29, 31, 0.72);
+  --header: #00000076;
   --blur-effect: saturate(180%) blur(20px);
 }
 * {
@@ -43,16 +43,16 @@ p {
   color: var(--white);
 }
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 12px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--gray);
+  background: #E5E5EA;
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--dark-gray);
+  background: #8E8E93;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--red);
+  background: #636366;
 }
 .container {
   padding-left: 15px;
