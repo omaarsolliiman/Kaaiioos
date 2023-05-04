@@ -435,28 +435,7 @@ p {
   font-size: 150px;
   font-weight: 700;
 }
-.introduction h1 span::before {
-  transition: 0.3s cubic-bezier(0, 0, 0.5, 1);
-  position: absolute;
-  content: "Easier to Read Than Chaos";
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  line-height: 1.6;
-  justify-content: center;
-  color: var(--red);
-  width: 100px;
-  height: 100px;
-  background: #ffffffcc;
-  backdrop-filter: var(--blur-effect);
-  transform: scale(0);
-  top: -40px;
-  left: 70px;
-  border-radius: 20px;
-}
-.introduction h1 span:hover::before {
-  top: -150px;
-  transform: scale(1);
+
 }
 .introduction h1 span {
   position: relative;
